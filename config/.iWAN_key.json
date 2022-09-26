@@ -1,0 +1,10 @@
+{
+	"main": {
+		"secretkey": "0ea7cb639be0a1c9bf2073f617bee4be66c7c4d1d0e14853ce3a8410d74a31cb",
+		"Apikey": "1bd59d5aecabc6411a59d5c1daaf3dfde2889627b97d5d5acb05958f4bf9a317"
+	},
+	"test": {
+		"secretkey": "0ea7cb639be0a1c9bf2073f617bee4be66c7c4d1d0e14853ce3a8410d74a31cb",
+		"Apikey": "1bd59d5aecabc6411a59d5c1daaf3dfde2889627b97d5d5acb05958f4bf9a317"
+	}
+}

@@ -1,7 +1,7 @@
 # wanchain_monitor
 
 ## Task: Extend the monitor job
-### xrp_trust_line_monitor.py
+### osm_account_healthy_xrp_trust_line_monitor.py
     monitor the working groups trust lines
 
 ## config: Store the config file

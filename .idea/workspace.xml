@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcbe5c1c-b5d8-431e-8276-6d3cbb8391d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/.public_rpc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/chainInfos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/crossPoolTokenInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/evmChainCrossSc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/osm_account_healthy_xrp_trust_line_monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wanchain_monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wanchain_monitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="dcbe5c1c-b5d8-431e-8276-6d3cbb8391d7" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -8,10 +8,12 @@ Steps:
 4. compare the account lines with the token issuers in tokenPairs. expected that all token issuers should be set in account lines
 '''
 import json
+import os
 import xrpl.models
 from utils import utils #import utils/utils.py
 from xrpl.clients import WebsocketClient
-task = 'osm_account_healthy_xrp_trust_line_monitor'
+task =os.path.basename(__file__).replace(".py","") #'osm_account_healthy_xrp_trust_line_monitor'
+report_keyword = utils.get_report_keywords(task)
 class ACCLINES:
     def __init__(self,net,chain='xrp',scheme='ws'):
         # init the variables
@@ -145,10 +147,13 @@ def main(net,job_num):
             ]
         }
     '''
+    # it will not be watched in this list
     ignore_xrp_token = ['GZX:rDqaV8aoWPSqPGdy6iXLYzqeA1DEGMCrzJ',
                         '784249424C780000000000000000000000000000:rDqaV8aoWPSqPGdy6iXLYzqeA1DEGMCrzJ',
                         '584C495354000000000000000000000000000000:rDqaV8aoWPSqPGdy6iXLYzqeA1DEGMCrzJ',
-                        'NVL:rDqaV8aoWPSqPGdy6iXLYzqeA1DEGMCrzJ'] #it will not be watched in this list
+                        'NVL:rDqaV8aoWPSqPGdy6iXLYzqeA1DEGMCrzJ']
+
+    ignore_xrp_token = []
     result = {task:[]}
     html_json = {"StoremanGroup":[],"Account":[],"Account Lines":[],"Expected Account Lines":[],"Status":[]}
     #1. init acclines
@@ -175,16 +180,25 @@ def main(net,job_num):
         html_json["Expected Account Lines"].append(data[group_name]["expected_account_lines"])
         html_json["Status"].append(data[group_name]["status"])
     html_raw = utils.genhtml.html_build(html_json,task)
-    html = utils.genhtml.render_new(html_raw,key= 'failed')
+    html = utils.genhtml.render_new(html_raw,key= report_keyword)
 
     #5.output report
-    with open('../monitor_report/{}_{}.html'.format(task,job_num),'a') as f:
+    with open('../monitor_report/{}_{}_{}.html'.format(task,net,job_num),'a') as f:
         f.write(html)
 
-    #6.send report
-    # utils.sendEmail.SendEmail()
+    #6.send email
+    attachment = '' #file
+    utils.send_email(task,html,attachment)
+
+    #7.send dingding msg
+    msg = utils.dingMsg.msgFormat(task,html_json,fliter = report_keyword)
+    url,mobile = utils.get_ding_url(task)
+    utils.dingMsg.send_request(msg,url,mobile)
+
 if __name__ == '__main__':
-    main('test',2)
+    import sys
+    # main(sys.argv[1],sys.argv[2]) #for jenkins deployment
+    main('test',8)
 
 
 

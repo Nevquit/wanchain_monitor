@@ -178,11 +178,11 @@ def main(net,job_num):
     html = utils.genhtml.render_new(html_raw,key= 'failed')
 
     #5.output report
-    with open('../report/{}_{}.html'.format(task,job_num),'a') as f:
+    with open('../monitor_report/{}_{}.html'.format(task,job_num),'a') as f:
         f.write(html)
 
     #6.send report
-    utils.sendEmail.SendEmail()
+    # utils.sendEmail.SendEmail()
 if __name__ == '__main__':
     main('test',2)
 

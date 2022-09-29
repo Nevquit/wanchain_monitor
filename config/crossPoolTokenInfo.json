@@ -1,0 +1,34 @@
+{
+	"main": {
+		"74": {
+			"Asset": "VEE",
+			"TokenAddress": "0x3709e8615e02c15b096f8a9b460ccb8ca8194e86",
+			"PoolScAddress": "0xae110a0e6e5ddb0108f6d752f754b575d62b7534",
+			"originalAmount": 0,
+			"chainType": "AVAX"
+		},
+		"178": {
+			"Asset": "FINN",
+			"TokenAddress": "0xbD4191828AEFF23Fb9E0249A5AE583a4B9425e49",
+			"PoolScAddress": "0xbd4191828aeff23fb9e0249a5ae583a4b9425e49",
+			"originalAmount": 75000000,
+			"chainType": "CLV"
+		}
+	},
+	"test": {
+		"74": {
+			"Asset": "VEE",
+			"TokenAddress": "0x372d0695e75563d9180f8ce31c9924d7e8aaac47",
+			"PoolScAddress": "0x372d0695e75563d9180f8ce31c9924d7e8aaac47",
+			"originalAmount": 500000,
+			"chainType": "AVAX"
+		},
+		"178": {
+			"Asset": "FINN",
+			"TokenAddress": "0xbD4191828AEFF23Fb9E0249A5AE583a4B9425e49",
+			"PoolScAddress": "0x4f0aac04c190fb1aef5c55f81b41f72615c820c4",
+			"originalAmount": 100000,
+			"chainType": "CLV"
+		}
+	}
+}

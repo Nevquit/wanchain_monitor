@@ -1,0 +1,1 @@
+name = "wanchain_monitor"

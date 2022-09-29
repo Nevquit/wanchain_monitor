@@ -5,6 +5,10 @@ __pycache__/
 
 # config
 .iWAN*
+.public*
+.smtp.pwd*
+#report
+*.html
 
 # C extensions
 *.so

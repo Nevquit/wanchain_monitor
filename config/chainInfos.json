@@ -1,0 +1,1672 @@
+{
+	"main": {
+		"1073741826": {
+			"chainName": "Arbitrum",
+			"chainType": "ARETH",
+			"chainID": 42161,
+			"multicall_addresses": "0xb66f96e30d6a0ae64d24e392bb2dbd25155cb3a6",
+			"evm": true,
+			"crossScAddr": "0xf7ba155556e2cd4dfe3fe26e506a14d2f4b97613",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xf7ba155556e2cd4dfe3fe26e506a14d2f4b97613",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x8818c74956ae90c6c7b317439373052073e62999",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xc928c8e48647c8b0ce550c2352087b1cf5c6111e",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0xeA0C753D391761bBDb090AC93102A4d1BdCbEE2b",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xbf9076b4ea99c1fce5e2b0fc7ac5955333f47d18",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x7f70d0047Ae63131ab77F179a90F1a41CeEA93Aa",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147484262": {
+			"chainName": "Optimism",
+			"chainType": "OETH",
+			"chainID": 10,
+			"multicall_addresses": "",
+			"evm": true,
+			"crossScAddr": "",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "",
+				"Monitor": true
+			},
+			"open_status": false,
+			"ecosystem": "evm"
+		},
+		"2153201998": {
+			"chainName": "Wanchain",
+			"chainType": "WAN",
+			"chainID": 888,
+			"multicall_addresses": "0xBa5934Ab3056fcA1Fa458D30FBB3810c3eb5145f",
+			"evm": true,
+			"crossScAddr": "0xe85b0D89CbC670733D6a40A9450D8788bE13da47",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xe85b0d89cbc670733d6a40a9450d8788be13da47",
+					"Owner": "0x0F4f833F031fFF7e76AA783212f786432a14FB90",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x58c0116cac5e6448a8e04de50f75cb8ea9664055",
+					"Owner": "0x0F4f833F031fFF7e76AA783212f786432a14FB90",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x9fdf94dff979dbecc2c1a16904bdfb41d305053a",
+					"Owner": "0x0F4f833F031fFF7e76AA783212f786432a14FB90",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0xC76AF891c532D5bFA44CbDcA21DDDfD704f77624",
+					"Owner": "0x0F4f833F031fFF7e76AA783212f786432a14FB90",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xa2b6cfae041371a30bed5f2092393f03d6dcdeec",
+					"Owner": "0x0F4f833F031fFF7e76AA783212f786432a14FB90",
+					"Admin": "0x363d46363f1DCfb194A97C05062ab17628a0257B",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x7eFD645792f7fb50186B2CD30BA878b9Bd681Cbe",
+					"Owner": "0x0F4f833F031fFF7e76AA783212f786432a14FB90",
+					"Admin": "0x363d46363f1DCfb194A97C05062ab17628a0257B",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147483708": {
+			"chainName": "Ethereum",
+			"chainType": "ETH",
+			"chainID": 1,
+			"multicall_addresses": "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
+			"evm": true,
+			"crossScAddr": "0xfCeAAaEB8D564a9D0e71Ef36f027b9D162bC334e",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xfceaaaeb8d564a9d0e71ef36f027b9d162bc334e",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x9276ee38a5250e2f7fbe00a12ec17d09b5d28f3d",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xbab93311de250b5b422c705129b3617b3cb6e9e1",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x9c39efA16715856b58B61901dBeFc13be461B303",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xbb38d10033b26f3836a8c1e41788206868b9f228",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0xa6a6f6872b9c1114fD2407aacE632f8512389187",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147483648": {
+			"chainName": "Bitcoin",
+			"chainType": "BTC",
+			"chainID": 0,
+			"multicall_addresses": "",
+			"evm": false,
+			"crossScAddr": "",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "btc"
+		},
+		"2147484362": {
+			"chainName": "BSC",
+			"chainType": "BNB",
+			"chainID": 56,
+			"multicall_addresses": "0x023a33445F11C978f8a99E232E1c526ae3C0Ad70",
+			"evm": true,
+			"crossScAddr": "0xc3711bdbe7e3063bf6c22e7fed42f782ac82baee",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xc3711bdbe7e3063bf6c22e7fed42f782ac82baee",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x5ff81da1574bc8e19fb6aa78ea2ad97eb57c7f3e",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x39af91cba3aed00e9b356ecc3675c7ef309017dd",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x77EcC3B0a33B5e03E4Db7e27937880ea6e4979af",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xd948675a4da40cd7aa6f1ec1f10db5a4ffb6b990",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0xD8Fc5034166e984c1131B940ddE4BE69491C3aCc",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147483792": {
+			"chainName": "XRP L",
+			"chainType": "XRP",
+			"chainID": 0,
+			"multicall_addresses": "",
+			"evm": false,
+			"crossScAddr": "",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "xrp"
+		},
+		"2147483650": {
+			"chainName": "Litecoin",
+			"chainType": "LTC",
+			"chainID": 0,
+			"multicall_addresses": "",
+			"evm": false,
+			"crossScAddr": "",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "btc"
+		},
+		"2147492648": {
+			"chainName": "Avalanche",
+			"chainType": "AVAX",
+			"chainID": 43114,
+			"multicall_addresses": "0xA4726706935901fe7dd0F23Cf5D4fb19867dfc88",
+			"evm": true,
+			"crossScAddr": "0x74e121a34a66D54C33f3291f2cdf26B1cd037c3a",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0x74e121a34a66d54c33f3291f2cdf26b1cd037c3a",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x4f1d3d9ce4bb7646c35dcd05d3296f106f12345c",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xf06d72375d3bf5ab1a8222858e2098b16e5e8355",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x6473aFBf80732651450F083a03F46E7B463f0a19",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0x716f88d32b52342af040b2e775871dff56ebd035",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x69F3CD9cCd1E06c4152f0979546CABf4263A0fbb",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"1073741825": {
+			"chainName": "Moonriver",
+			"chainType": "MOVR",
+			"chainID": 1285,
+			"multicall_addresses": "0x1Fe0C23940FcE7f440248e00Ce2a175977EE4B16",
+			"evm": true,
+			"crossScAddr": "0xde1ae3c465354f01189150f3836c7c15a1d6671d",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xde1ae3c465354f01189150f3836c7c15a1d6671d",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0xc565ed1e12ce78f3a1df9f8c3e0a1b7e8577702c",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x32e1504a67826960245506706e0b129dc2a53b7f",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0xDd5f00B70762925BEde6819B53ae5427e3EfE423",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xffd3e7dabcdec920eed13b19a81b205aa0dd6e05",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x1d920B2a602e1339a18855eaCa5EF6A51527627c",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147484002": {
+			"chainName": "Polkadot",
+			"chainType": "DOT",
+			"chainID": 0,
+			"multicall_addresses": "",
+			"evm": false,
+			"crossScAddr": "",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "dot"
+		},
+		"2147484655": {
+			"chainName": "Fantom",
+			"chainType": "FTM",
+			"chainID": 250,
+			"multicall_addresses": "0x5f4870D51d2629D7493970B9d4526377Da98e95e",
+			"evm": true,
+			"crossScAddr": "0xccffe9d337f3c1b16bd271d109e691246fd69ee3",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xccffe9d337f3c1b16bd271d109e691246fd69ee3",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0xe2b7c17cdf92ebea0d03db8ced4416539095c9ad",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x4133401a05917326765427e7629bba56c89f8bdc",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0xdE1Ae3c465354f01189150f3836C7C15A1d6671D",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0x78f811a431d248c1edcf6d95ec8551879b2897c3",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1\n",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x1Fe0C23940FcE7f440248e00Ce2a175977EE4B16",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"1073741828": {
+			"chainName": "Moonbeam",
+			"chainType": "GLMR",
+			"chainID": 1284,
+			"multicall_addresses": "0xBAcAaa4509EE9c9b2cF7133B970BC6db47713477",
+			"evm": true,
+			"crossScAddr": "0x6372aEc6263AA93EAceDC994D38aa9117B6b95B5",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0x6372aec6263aa93eacedc994d38aa9117b6b95b5",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0xe727e81ea730ea216ca3720c2597fd14bf2b825a",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xc814ff82e04c556fba1639f1fddc158709184169",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x75b12FFC4A4740c246d7D553C897e52236433A52",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xcaa36de573f8203f880a1c0bbdcea996bf3b1748",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x079497f92f4522b3b17112AA8D28C4cE138935ba",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147484198": {
+			"chainName": "XinFin",
+			"chainType": "XDC",
+			"chainID": 50,
+			"multicall_addresses": "0x711bC8Dc6BF017958470c6A25f77D05Db2DCe65B",
+			"evm": true,
+			"crossScAddr": "xdcf7ba155556e2cd4dfe3fe26e506a14d2f4b97613",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xf7ba155556e2cd4dfe3fe26e506a14d2f4b97613",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x8818c74956ae90c6c7b317439373052073e62999",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xc928c8e48647c8b0ce550c2352087b1cf5c6111e",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0xeA0C753D391761bBDb090AC93102A4d1BdCbEE2b",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xbf9076b4ea99c1fce5e2b0fc7ac5955333f47d18",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x7f70d0047Ae63131ab77F179a90F1a41CeEA93Aa",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147484614": {
+			"chainName": "Polygon",
+			"chainType": "MATIC",
+			"chainID": 137,
+			"multicall_addresses": "0x1bbc16260d5d052f1493b8f2aeee7888fed1e9ab",
+			"evm": true,
+			"crossScAddr": "0x2216072a246a84f7b9ce0f1415dd239c9bf201ab",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0x2216072a246a84f7b9ce0f1415dd239c9bf201ab",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x8818c74956ae90c6c7b317439373052073e62999",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xc928c8e48647c8b0ce550c2352087b1cf5c6111e",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0xeA0C753D391761bBDb090AC93102A4d1BdCbEE2b",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xbf9076b4ea99c1fce5e2b0fc7ac5955333f47d18",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x7f70d0047Ae63131ab77F179a90F1a41CeEA93Aa",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147484644": {
+			"chainName": "OKT",
+			"chainType": "OKT",
+			"chainID": 66,
+			"multicall_addresses": "0xbd4191828aeff23fb9e0249a5ae583a4b9425e49",
+			"evm": true,
+			"crossScAddr": "0xf7ba155556e2cd4dfe3fe26e506a14d2f4b97613",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xf7ba155556e2cd4dfe3fe26e506a14d2f4b97613",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x8818c74956ae90c6c7b317439373052073e62999",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xc928c8e48647c8b0ce550c2352087b1cf5c6111e",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0xeA0C753D391761bBDb090AC93102A4d1BdCbEE2b",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xbf9076b4ea99c1fce5e2b0fc7ac5955333f47d18",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x7f70d0047Ae63131ab77F179a90F1a41CeEA93Aa",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"1073741829": {
+			"chainName": "CLV",
+			"chainType": "CLV",
+			"chainID": 1024,
+			"multicall_addresses": "0x9b281146a04a67948f4601abda704016296017c5",
+			"evm": true,
+			"crossScAddr": "0xf7ba155556e2cd4dfe3fe26e506a14d2f4b97613",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xf7ba155556e2cd4dfe3fe26e506a14d2f4b97613",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0xa35B3C55626188015aC79F396D0B593947231976",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x8818c74956ae90c6c7b317439373052073e62999",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xc928c8e48647c8b0ce550c2352087b1cf5c6111e",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0xeA0C753D391761bBDb090AC93102A4d1BdCbEE2b",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xbf9076b4ea99c1fce5e2b0fc7ac5955333f47d18",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x7f70d0047Ae63131ab77F179a90F1a41CeEA93Aa",
+					"Owner": "0x4cEd9c0EA79Ee6181600777D5B6badE7F3D301bF",
+					"Admin": "0x390CC3173EE7F425Fe7659df215B13959FD468E1",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x82bf94d159b15a587c45c9d70e0fab7fd87889eb",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		}
+	},
+	"test": {
+		"1073741826": {
+			"chainName": "Arbitrum",
+			"chainType": "ARETH",
+			"chainID": 421611,
+			"multicall_addresses": "0x06c6b65A8d5F52FA1E6d90bDB3Bdd4CB85F4587f",
+			"evm": true,
+			"crossScAddr": "0xbf0deb5cd8e072018632e9646b4fe998d4047a86",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xb5bf1013898a93f0bd902f6e346ed6cbb627b791",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x4c12e6696fe23b15f2b911db7ca42b2d01cde84a",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x15ad86ebe92ecce4347e65da59122e2f495d6a48",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x3fB3A082C288448459CFf482Fbd9d19F6e087348",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xdff6a8699031a448c4cc130f2bfdd9d2db4e5877",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x4A8F5Dd531e4Cd1993b79B23Dbda21fAacb9c731",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147483843": {
+			"chainName": "Tron",
+			"chainType": "TRX",
+			"chainID": 0,
+			"multicall_addresses": "",
+			"evm": true,
+			"crossScAddr": "41f1b7f2e5aaccce1e39ad9baa8ff6aa828a01ce19",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xb5bf1013898a93f0bd902f6e346ed6cbb627b791",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x4c12e6696fe23b15f2b911db7ca42b2d01cde84a",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x15ad86ebe92ecce4347e65da59122e2f495d6a48",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x3fB3A082C288448459CFf482Fbd9d19F6e087348",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xdff6a8699031a448c4cc130f2bfdd9d2db4e5877",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x4A8F5Dd531e4Cd1993b79B23Dbda21fAacb9c731",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147484262": {
+			"chainName": "Optimism",
+			"chainType": "OETH",
+			"chainID": 69,
+			"multicall_addresses": "0xcB5E16FC59108511B86342D654c89E5e0c460c85",
+			"evm": true,
+			"crossScAddr": "0x0467bf248bddb10e4465214e9baf404ff8e93332",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xb5bf1013898a93f0bd902f6e346ed6cbb627b791",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x4c12e6696fe23b15f2b911db7ca42b2d01cde84a",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x15ad86ebe92ecce4347e65da59122e2f495d6a48",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x3fB3A082C288448459CFf482Fbd9d19F6e087348",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xdff6a8699031a448c4cc130f2bfdd9d2db4e5877",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x4A8F5Dd531e4Cd1993b79B23Dbda21fAacb9c731",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2153201998": {
+			"chainName": "Wanchain",
+			"chainType": "WAN",
+			"chainID": 999,
+			"multicall_addresses": "0x14095a721Dddb892D6350a777c75396D634A7d97",
+			"evm": true,
+			"crossScAddr": "0x62de27e16f6f31d9aa5b02f4599fc6e21b339e79",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0x62de27e16f6f31d9aa5b02f4599fc6e21b339e79",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x5dcab781bd5e1e7af64eec0686f6d618554f6340",
+					"Owner": "0x9dA26FC2E1D6Ad9FDD46138906b0104ae68a65D8",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x017ab6485ff91c1a0a16b90e71f92b935b7213d3",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0xAe126e492a31138c77314C6330509293436181Bf",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0x27933a9b0a5c21b838843d7601b6e0b488122ae9",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x979377F02ae002E629E287d978FE03Fa0Ec2cC02",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x2aa0175eb8b0fb818fff3c518792cc1a327a1338",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147483708": {
+			"chainName": "Ethereum",
+			"chainType": "ETH",
+			"chainID": 4,
+			"multicall_addresses": "0x42Ad527de7d4e9d9d011aC45B31D8551f8Fe9821",
+			"evm": true,
+			"crossScAddr": "0xb8460eeaa06bc6668dad9fd42b661c0b96b3be57",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xb8460eeaa06bc6668dad9fd42b661c0b96b3be57",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x08bad1a48b0b08bf769f83ba30c1dad0f8bb8b6b",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xcef19151f44fc3df678554f35c1dd7f29afacde8",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x27a5A334017FA1d5d4a8b3326921a8FC7212045F",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0x0f0bf93bf16fd28294c637d855fc73b917ef5fcc",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x9c843263Bd9ae7277ab7c29c18e3F532894A0d35",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0xf6eb3cb4b187d3201afbf96a38e62367325b29f9",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147483648": {
+			"chainName": "Bitcoin",
+			"chainType": "BTC",
+			"chainID": 0,
+			"multicall_addresses": "",
+			"evm": false,
+			"crossScAddr": "",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "",
+				"Monitor": true
+			},
+			"open_status": false,
+			"ecosystem": "btc"
+		},
+		"2147484362": {
+			"chainName": "BSC",
+			"chainType": "BNB",
+			"chainID": 97,
+			"multicall_addresses": "0x54b738619DE4770A17fF3D6bA4c2b591a886A062",
+			"evm": true,
+			"crossScAddr": "0xb12513cfcb13b7be59ba431c040b7206b0a211b9",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xb12513cfcb13b7be59ba431c040b7206b0a211b9",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x4a8f5dd531e4cd1993b79b23dbda21faacb9c731",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xe110fced02df3b3abb9e13145bd62491ac3a0032",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0xfbC0846A9C7CE452890eC4C1bf045CBE9D23aeA3",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xbdff39372e4bc0cefc54b858828aaedfd5498cd1",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0xA4a7d8473948728C9651841cEc9370ceEcb20bBd",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147483792": {
+			"chainName": "XRP L",
+			"chainType": "XRP",
+			"chainID": 0,
+			"multicall_addresses": "",
+			"evm": false,
+			"crossScAddr": "",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "",
+				"Monitor": true
+			},
+			"open_status": false,
+			"ecosystem": "xrp"
+		},
+		"2147483650": {
+			"chainName": "Litecoin",
+			"chainType": "LTC",
+			"chainID": 0,
+			"multicall_addresses": "",
+			"evm": false,
+			"crossScAddr": "",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "",
+				"Monitor": true
+			},
+			"open_status": false,
+			"ecosystem": "btc"
+		},
+		"2147492648": {
+			"chainName": "Avalanche",
+			"chainType": "AVAX",
+			"chainID": 43113,
+			"multicall_addresses": "0x0EA414bAAf9643be59667E92E26a87c4Bae3F33a",
+			"evm": true,
+			"crossScAddr": "0x4c200a0867753454db78af84d147bd03e567f234",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0x4c200a0867753454db78af84d147bd03e567f234",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x0a5b5ea60930cca901bce3e3ad1772ebdd5065b8",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0xafd25d2696b94d6020037cb8942d72b012bf0846",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x3173174D541d2d32F965B10414E5a7AeFa5d7eF0",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0x302554d20c92461f4c57bad481797b6d5f422c45",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x80f3eBCe03689F0eceb9633054b5F57DA68D41b9",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"1073741825": {
+			"chainName": "moonbase",
+			"chainType": "MOVR",
+			"chainID": 1287,
+			"multicall_addresses": "0x136333217C18Cd6E018B85Aaf8Bd563EB72E97Fd",
+			"evm": true,
+			"crossScAddr": "0x9274be9167c7dba7f81b61d3870e0272cb8474f6",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0x9274be9167c7dba7f81b61d3870e0272cb8474f6",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x900485f59f280c6bad9e400b9de242f9837fd4d9",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x59ba8f584d9293a8f2ceeef76760ef534afdd716",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x41ca1b2FdC225FF25eE8F51eE53728d26cC5bC8B",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0x8fb1ce0be9416648919d26ae4894a733cb0d98f1",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x552F91071a797161fe23945367B79Ec6fFB62Fce",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147484002": {
+			"chainName": "WND",
+			"chainType": "WND",
+			"chainID": 0,
+			"multicall_addresses": "",
+			"evm": false,
+			"crossScAddr": "",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "",
+					"Owner": "",
+					"Admin": "",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "",
+				"Monitor": true
+			},
+			"open_status": false,
+			"ecosystem": "dot"
+		},
+		"2147484655": {
+			"chainName": "Fantom",
+			"chainType": "FTM",
+			"chainID": 4002,
+			"multicall_addresses": "0x5379271958a603ba1cd782588643d9566799670c",
+			"evm": true,
+			"crossScAddr": "0x265fc66e84939f36d90ee38734afe4a770d2c114",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xb5bf1013898a93f0bd902f6e346ed6cbb627b791",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x4c12e6696fe23b15f2b911db7ca42b2d01cde84a",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x15ad86ebe92ecce4347e65da59122e2f495d6a48",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x3fB3A082C288448459CFf482Fbd9d19F6e087348",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xdff6a8699031a448c4cc130f2bfdd9d2db4e5877",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x4A8F5Dd531e4Cd1993b79B23Dbda21fAacb9c731",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147484198": {
+			"chainName": "XinFin",
+			"chainType": "XDC",
+			"chainID": 51,
+			"multicall_addresses": "0x4a9F99ceb037E8C4FBEC272D17D40282aA67d9c6",
+			"evm": true,
+			"crossScAddr": "0x18edfe1e49ca89157384832482c66e95ea9b0fca",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xb5bf1013898a93f0bd902f6e346ed6cbb627b791",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x4c12e6696fe23b15f2b911db7ca42b2d01cde84a",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x15ad86ebe92ecce4347e65da59122e2f495d6a48",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x3fB3A082C288448459CFf482Fbd9d19F6e087348",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xdff6a8699031a448c4cc130f2bfdd9d2db4e5877",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x4A8F5Dd531e4Cd1993b79B23Dbda21fAacb9c731",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147484614": {
+			"chainName": "Polygon",
+			"chainType": "MATIC",
+			"chainID": 80001,
+			"multicall_addresses": "0x905B3237B2367B2DdEBdF54D4F5320429710850a",
+			"evm": true,
+			"crossScAddr": "0xb5bf1013898a93f0bd902f6e346ed6cbb627b791",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xb5bf1013898a93f0bd902f6e346ed6cbb627b791",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x4c12e6696fe23b15f2b911db7ca42b2d01cde84a",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x15ad86ebe92ecce4347e65da59122e2f495d6a48",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x3fB3A082C288448459CFf482Fbd9d19F6e087348",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xdff6a8699031a448c4cc130f2bfdd9d2db4e5877",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x4A8F5Dd531e4Cd1993b79B23Dbda21fAacb9c731",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"2147484644": {
+			"chainName": "OKT",
+			"chainType": "OKT",
+			"chainID": 65,
+			"multicall_addresses": "0x3ecc2399611A26E70dbac73714395b13Bc3B69fA",
+			"evm": true,
+			"crossScAddr": "0x5292b2936dad44edfbfb2929f9f246304167843b",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xb5bf1013898a93f0bd902f6e346ed6cbb627b791",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x4c12e6696fe23b15f2b911db7ca42b2d01cde84a",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x15ad86ebe92ecce4347e65da59122e2f495d6a48",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x3fB3A082C288448459CFf482Fbd9d19F6e087348",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xdff6a8699031a448c4cc130f2bfdd9d2db4e5877",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x4A8F5Dd531e4Cd1993b79B23Dbda21fAacb9c731",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		},
+		"1073741829": {
+			"chainName": "CLV",
+			"chainType": "CLV",
+			"chainID": 1024,
+			"multicall_addresses": "0x9b281146a04a67948f4601abda704016296017c5",
+			"evm": true,
+			"crossScAddr": "0xcef19151f44fc3df678554f35c1dd7f29afacde8",
+			"scAddrs": {
+				"crossSc": {
+					"Address": "0xb5bf1013898a93f0bd902f6e346ed6cbb627b791",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x2AA0175Eb8b0FB818fFF3c518792Cc1a327a1338",
+					"Monitor": true
+				},
+				"signature": {
+					"Address": "0x4c12e6696fe23b15f2b911db7ca42b2d01cde84a",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerProxy": {
+					"Address": "0x15ad86ebe92ecce4347e65da59122e2f495d6a48",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"tokenManagerDelegator": {
+					"Address": "0x3fB3A082C288448459CFf482Fbd9d19F6e087348",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Monitor": true
+				},
+				"oracleProxy": {
+					"Address": "0xdff6a8699031a448c4cc130f2bfdd9d2db4e5877",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				},
+				"oracleDelegator": {
+					"Address": "0x4A8F5Dd531e4Cd1993b79B23Dbda21fAacb9c731",
+					"Owner": "0xF6eB3CB4b187d3201AfBF96A38e62367325b29F9",
+					"Admin": "0x0000000000000000000000000000000000000000",
+					"Monitor": true
+				}
+			},
+			"smgFeeProxy": {
+				"Address": "0x0000000000000000000000000000000000000000",
+				"Monitor": true
+			},
+			"open_status": true,
+			"ecosystem": "evm"
+		}
+	}
+}

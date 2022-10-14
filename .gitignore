@@ -8,6 +8,7 @@ __pycache__/
 .public*
 .smtp.pwd*
 .email_ding_contact.json
+.public_rpc.json
 
 #report
 *.html

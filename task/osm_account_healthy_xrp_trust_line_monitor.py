@@ -8,6 +8,8 @@ Steps:
 4. compare the account lines with the token issuers in tokenPairs. expected that all token issuers should be set in account lines
 '''
 import json
+import sys
+sys.path.append('../')
 import os
 import xrpl.models
 from utils import utils #import utils/utils.py

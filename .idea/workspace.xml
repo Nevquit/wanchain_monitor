@@ -84,12 +84,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "E:/Automation/wanchain_monitor/config",
+    "last_opened_file_path": "E:/Automation/wanchain_monitor/task",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Automation\wanchain_monitor\task" />
       <recent name="E:\Automation\wanchain_monitor\config" />
       <recent name="E:\Automation\wanchain_monitor\utils" />
       <recent name="E:\Automation\wanchain_monitor" />

@@ -9,7 +9,7 @@ __pycache__/
 .smtp.pwd*
 .email_ding_contact.json
 .public_rpc.json
-
+.foundation*
 #report
 *.html
 

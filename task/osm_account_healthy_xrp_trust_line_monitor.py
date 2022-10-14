@@ -122,9 +122,11 @@ class ACCLINES:
         result["status"] = status
         return result
 
-def main(net,job_num):
+def main(net,job_num,report_path='../monitor_report'):
     '''
     :param net:
+           job_num
+           report_path
     :return:
             {
             "osm_account_healthy_xrp_trust_line_monitor": [
@@ -185,7 +187,7 @@ def main(net,job_num):
     html = utils.genhtml.render_new(html_raw,key= report_keyword)
 
     #5.output report
-    with open('../monitor_report/{}_{}_{}.html'.format(task,net,job_num),'a') as f:
+    with open(report_path+'/{}_{}_{}.html'.format(task,net,job_num),'a') as f:
         f.write(html)
 
     #6.send email
@@ -199,8 +201,8 @@ def main(net,job_num):
 
 if __name__ == '__main__':
     import sys
-    # main(sys.argv[1],sys.argv[2]) #for jenkins deployment
-    main('test',8)
+    main(sys.argv[1],sys.argv[2],report_path=sys.argv[3]) #for jenkins deployment
+    # main('test',8)
 
 
 

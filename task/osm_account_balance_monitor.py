@@ -6,115 +6,56 @@ Steps:
 2. get the balance for every account
 3. raise the alert when the balance is under threshold
 '''
+import json
 import sys
 sys.path.append('../')
 import requests
-
-class OSMBalance:
+import json
+from utils import BalanceUtility
+import pandas as pd
+BalanceUtility.BalanceUtility().
+class AccountBalance:
     def __init__(self):
         # init the variables
-        self.net = net
-        self.chain = chain
-        self.scheme = scheme
-        self.stm = utils.StoremanUtil(net).storeman_util()
-        self.tokenPairs = utils.TokenPairUtil(net).token_util()
-        self.rpc_selector = utils.RpcSelector(net,chain,scheme,utils.RpcSelect_obj().getXrpBlkNum)
+        ##rpcs
+        with open('../config/.public_rpc.json','r') as f:
+            self.rpc_config = json.load(f)
+        ## the accouns for monitor
+        self.accounts_info = pd.read_csv('../config/.foundation_accounts.csv')
+        ## report format
+        self.data = {'Net': [], 'Role': [], 'StoremanGroup': [], 'Account': [], 'Chain': [], 'Balance': [], 'Status': []}
 
-    # define the functions
-    def get_working_grs(self):
-        '''
-        get all working group's IDs
-        :return:
-        '''
-        working_groups = self.stm.getWorkingGroupsDetails()
-        return working_groups
-    def get_token_issuers_from_tokenPairs(self):
-        '''
-        :return:{"Moo":"rDqaV8aoWPSqPGdy6iXLYzqeA1DEGMCrzJ"}
-        '''
-        xrptoken_infos = {}
-        xrp_token_tokenpairs = self.tokenPairs.get_xrp_token_pairs()
-        for xrp_token in xrp_token_tokenpairs:
-            xrptokenInfo = utils.hex_string_convert.hexstring_to_string(xrp_token['fromAccount']).split(':') #{issuer}:${currency}
-            xrptoken_infos[xrptokenInfo[1]] = xrptokenInfo[0]
-        return xrptoken_infos
-    def get_accout_lines(self,account):
-        '''
-
-        :param account:
-        :return:
-            {
-                "status": "success",
-                "result": {
-                    "account": "rNWwzNesh85cVtVCSh2ipAHQQKDb3Q39o1",
-                    "ledger_current_index": 31549231,
-                    "lines": [
-                        {
-                            "account": "rDqaV8aoWPSqPGdy6iXLYzqeA1DEGMCrzJ",
-                            "balance": "2",
-                            "currency": "Moo",
-                            "limit": "10000000000",
-                            "limit_peer": "0",
-                            "no_ripple": true,
-                            "no_ripple_peer": false,
-                            "quality_in": 0,
-                            "quality_out": 0
-                        }
-                    ],
-                    "validated": false
-                },
-                "id": "account_lines_457777",
-                "type": "response"
-            }
-        '''
-        rpc = self.rpc_selector.select_random()
-        if not rpc:
-            rpc = self.rpc_selector.select_best()
-        websocket_client = WebsocketClient(rpc)
-        websocket_client.open()
-        request = xrpl.models.requests.account_lines.AccountLines(account=account)
-        response = websocket_client.request(request).to_dict()
-        websocket_client.close()
-        return response
-    def get_brief_account_lines(self,account_lines_raw):
-        '''
-        :param account_lines_raw, from the ledger rpc
-        :return: {"Moo":"rDqaV8aoWPSqPGdy6iXLYzqeA1DEGMCrzJ"}
-        '''
-        account_lines = {}
-        for account_line in account_lines_raw['result']['lines']:
-            account_lines[account_line['currency']] = account_line['account']
-        return account_lines
-    def check_trust_line_setting(self,account,ignore_xrp_tokens):
-        '''
-        :param account:
-        :param ignore_xrp_tokens->list, it will not be watched in this list
-        :return:
-            {"account":account,"account_lines":"issuer_a:currency_a\n issuer_b:currency_b"},"status":"pass"}
-        '''
-        status = "pass"
-        account_expected_trust_lines = []
-        account_setted_trust_lines = []
-        miss_trust_line_set = []
-        result = {"account":account,"expected_account_lines":"","account_lines":"","status":status}
-        account_lines_raw = self.get_accout_lines(account)
-        account_lines = self.get_brief_account_lines(account_lines_raw) #{currency:issuer}
-        xrp_token_issuers = self.get_token_issuers_from_tokenPairs() #{currency:issuer}
-        for currency, issuer in xrp_token_issuers.items():
-            if "{}:{}".format(currency,issuer) not in ignore_xrp_tokens:
-                account_expected_trust_lines.append("{}:{}".format(issuer,currency))
-                if not account_lines.get(currency):
-                    miss_trust_line_set.append({currency:issuer})
+    def get_accounts_balance(self):
+        for i in range(len(self.accounts_info)):
+            try:
+                self.data['Net'].append(dic['Net'].values[i])
+                self.data['Role'].append(dic['Role'].values[i])
+                self.data['StoremanGroup'].append(dic['StoremanGroup'].values[i])
+                self.data['Account'].append(dic['Address'].values[i])
+                items = rpc.split('*')
+                way = items[0]
+                if way == 'web3':
+                    node = items[1]
+                    balance = getBalanceViaRPC(dic['Address'].values[i].lower(),node)/1000000000000000000
+                elif way == 'tron3':
+                    subCheck = items[1]
+                    node = items[2]
+                    if subCheck == 'balance':
+                        balance = getTronAccBalance(dic['Address'].values[i],node)
+                    elif subCheck == 'net':
+                        balance = getTronAccAvailableNet(dic['Address'].values[i],node)
+                    else:
+                        balance = getTronAccAvailableEnergy(dic['Address'].values[i],node)
+                if balance >= dic['Threshold'].values[i]:
+                    status = 'OK'
                 else:
-                    account_setted_trust_lines.append("{}:{}".format(issuer,currency))
-        if miss_trust_line_set:
-            status = "failed-trust_line_missing:\n"
-            for xrp_token in miss_trust_line_set:
-                status += '{}\n'.format(xrp_token)
-        result["expected_account_lines"] = '\n'.join(account_expected_trust_lines)
-        result["account_lines"] = '\n'.join(account_setted_trust_lines)
-        result["status"] = status
-        return result
+                    status = 'Alert-Insufficient lower than {}'.format(dic['Threshold'].values[i])
+            except:
+                continue
+            data['Chain'].append(dic['Chain'].values[i])
+            data['Balance'].append(str(balance))
+            data['Status'].append(status)
+        return data
 
 def main(net,job_num,report_path='../monitor_report'):
     '''

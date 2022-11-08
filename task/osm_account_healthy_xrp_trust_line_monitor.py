@@ -17,7 +17,7 @@ from xrpl.clients import WebsocketClient
 task =os.path.basename(__file__).replace(".py","") #'osm_account_healthy_xrp_trust_line_monitor'
 report_keyword = utils.get_report_keywords(task)
 class ACCLINES:
-    def __init__(self,net,chain='xrp',scheme='ws'):
+    def __init__(self,net,chain='XRP',scheme='ws'):
         # init the variables
         self.net = net
         self.chain = chain

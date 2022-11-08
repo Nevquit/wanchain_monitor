@@ -6,7 +6,8 @@
 ## Task: Extend the monitor job
 ### osm_account_healthy_xrp_trust_line_monitor.py
         monitor the working groups trust lines
-
+### osm_account_balance_monitor.py
+        monitor the accounts balance
 ## config: Store the config file
         1. ".iWAN_Config.json"
          Apply the keys from "https://iwan.wanchain.org/"
@@ -42,6 +43,12 @@
     
         7. "evmChainCrossSc.json"
          Generate it from chainInfos.json
+        
+        8. ".foundation_accounts.csv"
+         Create it mannually for "osm_account_balance_monitor"
+
+        9. ".public_rpc.json"
+         Create it for every chain 
 
 ## monitor_report
         to store the related reports

@@ -1,0 +1,22 @@
+{
+	"main": {
+		"ARETH": [],
+		"OETH": [],
+		"WAN": [],
+		"ETH": [],
+		"BTC": [],
+		"BNB": [],
+		"XRP": [],
+		"LTC": [],
+		"AVAX": [],
+		"MOVR": [],
+		"DOT": [],
+		"FTM": [],
+		"GLMR": [],
+		"XDC": [],
+		"MATIC": [],
+		"OKT": [],
+		"CLV": []
+	},
+	"test": {}
+}

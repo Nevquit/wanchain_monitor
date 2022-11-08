@@ -10,6 +10,8 @@ __pycache__/
 .email_ding_contact.json
 .public_rpc.json
 .foundation*
+chain_type_dict*
+
 #report
 *.html
 
